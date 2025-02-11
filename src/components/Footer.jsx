@@ -16,14 +16,14 @@ const Footer = () => {
       >
         <img src="/logo.png" alt="logo" className="w-12" />
         <h1 className="hidden md:flex text-white text-xs font-semibold">
-          Todos los derechos reservados @ MeepleTup 2024
+          Todos los derechos reservados @ MeepleTup 2024/25
         </h1>
       </div>
 
       <div>
         <ul className="flex items-center gap-6 justify-center text-slate-300">
           <SocialLink
-            href="https://www.linkedin.com/company/aula-de-software-libre-lope-de-vega/"
+            href="https://www.linkedin.com/company/pegoletech/people/"
             icon={faLinkedin}
             label="Visita nuestro perfil de LinkedIn"
             title="LinkedIn"
@@ -35,7 +35,7 @@ const Footer = () => {
             title="Telegram"
           />
           <SocialLink
-            href="https://x.com/SoftwareLibreFP"
+            href="https://x.com/MeepleTup"
             icon={faXTwitter}
             label="Visita nuestro perfil de X"
             title="X"
@@ -47,6 +47,9 @@ const Footer = () => {
         <FontAwesomeIcon icon={faCode} className="size-3 text-slate-300" />
         <p className="mt-10 mb-10 text-center text-xs text-slate-300">
           Diseñado y desarrollado por el Aula de Software Libre - FP Córdoba
+        </p>
+        <p className="mt-10 mb-10 text-center text-xs text-slate-300">
+          BY: Alvaro Fernandez Amaro & Ignacio de Loyola Díaz Jiménez
         </p>
         <FontAwesomeIcon icon={faCode} className="size-3 text-slate-300" />
       </div>
